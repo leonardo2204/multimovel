@@ -24,7 +24,7 @@ export function OnboardingPreviewSection() {
             Primeiros Passos Super Simples
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Veja como é fácil começar. Tão simples quanto postar no Facebook!
+            Veja como é fácil começar. Tão simples quanto postar no Chaves na Mão!
           </p>
         </div>
 
@@ -42,8 +42,7 @@ export function OnboardingPreviewSection() {
               </div>
               <p className="text-lg text-gray-600 mb-6">
                 Preencha um formulário simples com as informações básicas do seu
-                imóvel. Igual quando você posta algo para vender no Facebook
-                Marketplace.
+                imóvel. Igual quando você posta algo para vender no Chaves na Mão.
               </p>
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-center">
@@ -158,9 +157,9 @@ export function OnboardingPreviewSection() {
                       <div className="flex items-center justify-between p-3 bg-green-50 rounded-lg">
                         <div className="flex items-center">
                           <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center text-white text-xs font-bold mr-3">
-                            OLX
+                            CM
                           </div>
-                          <span className="text-sm font-medium">OLX</span>
+                          <span className="text-sm font-medium">Chaves na Mão</span>
                         </div>
                         <Badge className="bg-green-600 text-white">
                           Publicado ✓
@@ -169,10 +168,10 @@ export function OnboardingPreviewSection() {
                       <div className="flex items-center justify-between p-3 bg-green-50 rounded-lg">
                         <div className="flex items-center">
                           <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white text-xs font-bold mr-3">
-                            ZAP
+                            IW
                           </div>
                           <span className="text-sm font-medium">
-                            ZAP Imóveis
+                            ImóvelWeb
                           </span>
                         </div>
                         <Badge className="bg-green-600 text-white">
@@ -193,9 +192,20 @@ export function OnboardingPreviewSection() {
                       <div className="flex items-center justify-between p-3 bg-green-50 rounded-lg">
                         <div className="flex items-center">
                           <div className="w-8 h-8 bg-blue-800 rounded-full flex items-center justify-center text-white text-xs font-bold mr-3">
-                            f
+                            OLX
                           </div>
-                          <span className="text-sm font-medium">Facebook</span>
+                          <span className="text-sm font-medium">OLX</span>
+                        </div>
+                        <Badge className="bg-green-600 text-white">
+                          Publicado ✓
+                        </Badge>
+                      </div>
+                      <div className="flex items-center justify-between p-3 bg-green-50 rounded-lg">
+                        <div className="flex items-center">
+                          <div className="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center text-white text-xs font-bold mr-3">
+                            ZI
+                          </div>
+                          <span className="text-sm font-medium">Zap Imóveis</span>
                         </div>
                         <Badge className="bg-green-600 text-white">
                           Publicado ✓
@@ -204,7 +214,7 @@ export function OnboardingPreviewSection() {
                     </div>
                     <div className="mt-6 p-4 bg-blue-50 rounded-lg text-center">
                       <p className="text-sm text-blue-800 font-medium">
-                        🎉 Seu imóvel está no ar em 4 sites!
+                        🎉 Seu imóvel está no ar em 5 sites!
                       </p>
                     </div>
                   </div>
@@ -221,8 +231,8 @@ export function OnboardingPreviewSection() {
                 </h3>
               </div>
               <p className="text-lg text-gray-600 mb-6">
-                Pronto! Seu imóvel aparece automaticamente no OLX, ZAP Imóveis,
-                VivaReal e Facebook. Você não precisa fazer mais nada.
+                Pronto! Seu imóvel aparece automaticamente no Chaves na Mão, ImóvelWeb,
+                VivaReal, OLX e Zap Imóveis. Você não precisa fazer mais nada.
               </p>
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-center">
@@ -231,7 +241,7 @@ export function OnboardingPreviewSection() {
                 </li>
                 <li className="flex items-center">
                   <Eye className="h-5 w-5 text-green-600 mr-3" />
-                  <span>Seu anúncio fica visível em 4 sites</span>
+                  <span>Seu anúncio fica visível em 5 sites</span>
                 </li>
                 <li className="flex items-center">
                   <MessageSquare className="h-5 w-5 text-green-600 mr-3" />
@@ -294,7 +304,7 @@ export function OnboardingPreviewSection() {
                     <div className="space-y-3">
                       <div className="flex items-center p-3 bg-blue-50 rounded-lg hover:bg-blue-100 cursor-pointer">
                         <div className="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center text-white text-xs font-bold mr-3">
-                          OLX
+                          CM
                         </div>
                         <div className="flex-1">
                           <p className="text-sm font-medium text-gray-900">
@@ -308,7 +318,7 @@ export function OnboardingPreviewSection() {
                       </div>
                       <div className="flex items-center p-3 bg-green-50 rounded-lg hover:bg-green-100 cursor-pointer">
                         <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white text-xs font-bold mr-3">
-                          ZAP
+                          IW
                         </div>
                         <div className="flex-1">
                           <p className="text-sm font-medium text-gray-900">
@@ -322,7 +332,7 @@ export function OnboardingPreviewSection() {
                       </div>
                       <div className="flex items-center p-3 bg-purple-50 rounded-lg hover:bg-purple-100 cursor-pointer">
                         <div className="w-10 h-10 bg-blue-800 rounded-full flex items-center justify-center text-white text-xs font-bold mr-3">
-                          f
+                          OLX
                         </div>
                         <div className="flex-1">
                           <p className="text-sm font-medium text-gray-900">

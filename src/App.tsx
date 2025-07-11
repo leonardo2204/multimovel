@@ -147,8 +147,8 @@ function App() {
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-gray-600">
-                  Conecte OLX, ZAP Imóveis, VivaReal e Facebook. Tudo em uma
-                  tela só.
+                  Conecte Chaves na Mão, ImóvelWeb, VivaReal, OLX e Zap Imóveis.
+                  Tudo em uma tela só.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -238,8 +238,8 @@ function App() {
                 Publique em vários sites
               </h3>
               <p className="text-gray-600">
-                Seu anúncio aparece no OLX, ZAP, VivaReal e Facebook
-                automaticamente
+                Seu anúncio aparece no Chaves na Mão, ImóvelWeb, VivaReal, OLX e
+                Zap Imóveis automaticamente
               </p>
             </div>
             <div className="text-center">
@@ -278,12 +278,11 @@ function App() {
             <Card className="relative">
               <CardHeader className="text-center">
                 <CardTitle className="text-2xl text-blue-900">
-                  Freemium
+                  Inicial
                 </CardTitle>
                 <div className="text-4xl font-bold text-blue-900 mt-4">
-                  R$19,90
+                  R$ 59,90<span className="text-lg font-normal">/mês</span>
                 </div>
-                <CardDescription>Para começar</CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
                 <ul className="space-y-3">
@@ -293,7 +292,7 @@ function App() {
                   </li>
                   <li className="flex items-center">
                     <Check className="h-5 w-5 text-green-600 mr-3" />
-                    <span>Todos os sites de venda</span>
+                    <span>Todos os sites de anúncio</span>
                   </li>
                   <li className="flex items-center">
                     <Check className="h-5 w-5 text-green-600 mr-3" />
@@ -319,9 +318,8 @@ function App() {
               <CardHeader className="text-center">
                 <CardTitle className="text-2xl text-blue-900">Básico</CardTitle>
                 <div className="text-4xl font-bold text-blue-900 mt-4">
-                  R$ 49<span className="text-lg font-normal">/mês</span>
+                  R$ 89,90<span className="text-lg font-normal">/mês</span>
                 </div>
-                <CardDescription>Para profissionais</CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
                 <ul className="space-y-3">
@@ -331,7 +329,7 @@ function App() {
                   </li>
                   <li className="flex items-center">
                     <Check className="h-5 w-5 text-green-600 mr-3" />
-                    <span>Todos os sites de venda</span>
+                    <span>Todos os sites de anúncio</span>
                   </li>
                   <li className="flex items-center">
                     <Check className="h-5 w-5 text-green-600 mr-3" />
@@ -360,9 +358,8 @@ function App() {
               <CardHeader className="text-center">
                 <CardTitle className="text-2xl text-blue-900">Pro</CardTitle>
                 <div className="text-4xl font-bold text-blue-900 mt-4">
-                  R$ 99<span className="text-lg font-normal">/mês</span>
+                  R$ 149,90<span className="text-lg font-normal">/mês</span>
                 </div>
-                <CardDescription>Para empresas</CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
                 <ul className="space-y-3">
@@ -402,7 +399,7 @@ function App() {
       <AddOnsSection />
 
       {/* Testimonials Section */}
-      <section id="depoimentos" className="py-20 bg-white">
+      {/* <section id="depoimentos" className="py-20 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-blue-900 mb-4">
@@ -510,7 +507,7 @@ function App() {
             </Card>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* FAQ Section */}
       <section className="py-20 bg-gray-50">
@@ -560,8 +557,8 @@ function App() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">
-                  Seu imóvel aparece no OLX, ZAP Imóveis, VivaReal e Facebook.
-                  Estamos sempre adicionando novos sites.
+                  Seu imóvel aparece no Chaves na Mão, ImóvelWeb, VivaReal, OLX
+                  e Zap Imóveis. Estamos sempre adicionando novos sites.
                 </p>
               </CardContent>
             </Card>
@@ -589,8 +586,7 @@ function App() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">
-                  Sim! Nossa equipe brasileira te ajuda por email, chat ou
-                  telefone. Tudo em português e de forma bem simples.
+                  Sim! Nossa equipe te ajuda por email ou whatsapp. Tudo de forma bem simples.
                 </p>
               </CardContent>
             </Card>

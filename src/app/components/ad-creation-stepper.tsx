@@ -25,8 +25,8 @@ export function AdCreationStepper() {
             Já tem um anúncio em outro site? Copie em segundos!
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Cole o link do seu anúncio do OLX, ZAP ou VivaReal e deixe a mágica
-            acontecer
+            Cole o link do seu anúncio do Chaves na Mão, ImóvelWeb, VivaReal,
+            OLX ou Zap Imóveis e deixe a mágica acontecer
           </p>
         </div>
 
@@ -85,12 +85,12 @@ export function AdCreationStepper() {
                     1. Cole o link do seu anúncio
                   </h3>
                   <p className="text-gray-600 mb-3">
-                    Copie o link do seu anúncio que já está no OLX, ZAP Imóveis
-                    ou VivaReal e cole aqui.
+                    Copie o link do seu anúncio que já está no Chaves na Mão,
+                    ImóvelWeb, VivaReal, OLX ou Zap Imóveis e cole aqui.
                   </p>
                   <div className="bg-gray-50 p-3 rounded-lg text-sm text-gray-600">
                     <strong>Exemplo:</strong>{" "}
-                    https://www.olx.com.br/imovel/apartamento-3-quartos...
+                    https://www.chavesnamao.com.br/imovel/apartamento-3-quartos...
                   </div>
                 </div>
               </div>
@@ -183,14 +183,15 @@ export function AdCreationStepper() {
                     </label>
                     <div className="flex">
                       <div className="flex-1 h-10 bg-gray-100 rounded-l-md flex items-center px-3 text-gray-600 text-sm">
-                        https://www.olx.com.br/imovel/apartamento-centro...
+                        https://www.chavesnamao.com.br/imovel/apartamento-centro...
                       </div>
                       <Button className="rounded-l-none bg-blue-900 hover:bg-blue-800 text-white">
                         <Link className="h-4 w-4" color="white" />
                       </Button>
                     </div>
                     <p className="text-xs text-gray-500">
-                      Cole aqui o link do OLX, ZAP Imóveis ou VivaReal
+                      Cole aqui o link do Chaves na Mão, ImóvelWeb, VivaReal,
+                      OLX ou Zap Imóveis
                     </p>
                   </div>
                 </CardContent>
@@ -299,11 +300,11 @@ export function AdCreationStepper() {
                     <div className="grid grid-cols-2 gap-2">
                       <div className="flex items-center p-2 bg-orange-50 rounded text-xs">
                         <div className="w-4 h-4 bg-orange-500 rounded mr-2"></div>
-                        OLX ✓
+                        Chaves na Mão ✓
                       </div>
                       <div className="flex items-center p-2 bg-blue-50 rounded text-xs">
                         <div className="w-4 h-4 bg-blue-600 rounded mr-2"></div>
-                        ZAP ✓
+                        ImóvelWeb ✓
                       </div>
                       <div className="flex items-center p-2 bg-red-50 rounded text-xs">
                         <div className="w-4 h-4 bg-red-600 rounded mr-2"></div>
@@ -311,7 +312,11 @@ export function AdCreationStepper() {
                       </div>
                       <div className="flex items-center p-2 bg-blue-50 rounded text-xs">
                         <div className="w-4 h-4 bg-blue-800 rounded mr-2"></div>
-                        Facebook ✓
+                        OLX ✓
+                      </div>
+                      <div className="flex items-center p-2 bg-green-50 rounded text-xs">
+                        <div className="w-4 h-4 bg-green-600 rounded mr-2"></div>
+                        Zap Imóveis ✓
                       </div>
                     </div>
                     <Button
@@ -347,7 +352,8 @@ export function AdCreationStepper() {
                 <a href="#waiting-list">Testar Gratuitamente</a>
               </Button>
               <p className="text-sm text-gray-500">
-                Funciona com links do OLX, ZAP e VivaReal
+                Funciona com links do Chaves na Mão, ImóvelWeb, VivaReal, OLX e
+                Zap Imóveis
               </p>
             </div>
           </div>
