@@ -1,0 +1,26 @@
+{
+  "name": "multimovel-landing",
+  "compatibility_date": "2025-07-09",
+  "compatibility_flags": ["nodejs_compat"],
+  "main": "./src/index.ts",
+  "assets": {
+    "directory": "./dist/client",
+    "not_found_handling": "single-page-application"
+  },
+  "routes": [
+    {
+      "pattern": "multimovel.com.br",
+      "custom_domain": true
+    }
+  ],
+  "vars": {
+    "VITE_PUBLIC_POSTHOG_KEY": "phc_qLDyhlHAIRn2tO7Mbi4kAqQVGv4hvBESuUqwrYgdG5e"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "multimovel-db",
+      "database_id": "be4fb5ea-e8d9-423d-82b0-65bd8d543686"
+    }
+  ]
+}
